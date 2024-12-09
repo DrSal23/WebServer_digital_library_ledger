@@ -1,0 +1,22 @@
+{
+    "name": "webserver_digital_library_ledger",
+    "version": "1.0.0",
+    "description": "A web server for managing a digital library ledger",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",  
+      "dev": "nodemon index.js",
+      "test": "jest"
+    },
+    "dependencies": {
+      "express": "^4.18.1",
+      "mongoose": "^6.0.0"
+    },
+    "devDependencies": {
+      "jest": "^29.0.0",
+      "nodemon": "^2.0.20"
+    },
+    "author": "Salah Mahmoud",
+    "license": "ISC"
+  }
+  
